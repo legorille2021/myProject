@@ -17,9 +17,7 @@ const Form = () => {
       });
       e.target.reset();
   };
-  function mailSent() {
-    return ("Email inviata!");
-  }
+  
   return (
    
         <form ref={form} onSubmit={sendEmail} >
